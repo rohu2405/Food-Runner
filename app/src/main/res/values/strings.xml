@@ -24,4 +24,5 @@
     <string name="instruction">Enter your registered mobile number and email below:</string>
     <string name="mobile">Mobile Number ( 10 digits )</string>
     <string name="email_address1">Email Address</string>
+    <string name="next1">Next</string>
 </resources>
