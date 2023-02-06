@@ -14,4 +14,14 @@
     <string name="don_t_have_an_account_sign_up_now">Don\'t have an account? Sign up now</string>
     <string name="passcode_6_digits">Passcode ( 6 digits )</string>
     <string name="phone_number_10_digits">Phone Number ( 10 digits )</string>
+    <string name="name_min_3_character">Name ( Min. 3 character )</string>
+    <string name="email_address">Email Address</string>
+    <string name="mobile_number_10_digits">Mobile Number ( 10 digits )</string>
+    <string name="delivery_address">Delivery Address</string>
+    <string name="password_min_6_character">Password (Min. 6 character )</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="register">Register</string>
+    <string name="instruction">Enter your registered mobile number and email below:</string>
+    <string name="mobile">Mobile Number ( 10 digits )</string>
+    <string name="email_address1">Email Address</string>
 </resources>

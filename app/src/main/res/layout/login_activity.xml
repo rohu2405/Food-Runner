@@ -40,7 +40,7 @@
         app:srcCompat="@drawable/phone2" />
 
     <com.google.android.material.textfield.TextInputLayout
-        android:id="@+id/filledTextFieldPhone"
+        android:id="@+id/filledTextFieldName"
 
         style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
 
@@ -55,7 +55,7 @@
         app:layout_constraintTop_toBottomOf="@+id/logo">
 
         <com.google.android.material.textfield.TextInputEditText
-            android:id="@+id/edit_text_phone"
+            android:id="@+id/edit_text_name"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             app:layout_constraintEnd_toEndOf="parent"
@@ -81,7 +81,7 @@
         android:layout_marginEnd="10dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/passwordlogo"
-        app:layout_constraintTop_toBottomOf="@id/filledTextFieldPhone">
+        app:layout_constraintTop_toBottomOf="@id/filledTextFieldName">
 
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/edit_text_password"
@@ -103,6 +103,7 @@
         android:layout_height="wrap_content"
         android:text="@string/forgot_password"
         android:layout_marginTop="10dp"
+        android:onClick="ResetPassword"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/login" />
@@ -126,6 +127,7 @@
         android:layout_height="wrap_content"
         android:text="@string/don_t_have_an_account_sign_up_now"
         android:layout_marginBottom="10dp"
+        android:onClick="SignUp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
