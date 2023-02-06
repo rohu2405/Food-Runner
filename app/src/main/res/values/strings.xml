@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Food Runner</string>
+    <string name="title_activity_login">Login_Activity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="login">Login</string>
+    <string name="don_t_have_an_account_sign_up_now">Don\'t have an account? Sign up now</string>
+    <string name="passcode_6_digits">Passcode ( 6 digits )</string>
+    <string name="phone_number_10_digits">Phone Number ( 10 digits )</string>
+</resources>
