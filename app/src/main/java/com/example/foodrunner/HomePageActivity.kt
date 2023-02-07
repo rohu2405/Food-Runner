@@ -3,10 +3,10 @@ package com.example.foodrunner
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 
-class registerActivity : AppCompatActivity() {
+class HomePageActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_register)
-        title = " Register Now "
+        setContentView(R.layout.activity_home_page)
+        title = " Home "
     }
 }

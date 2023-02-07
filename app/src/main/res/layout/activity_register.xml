@@ -37,7 +37,7 @@
             android:inputType="textPersonName"
 
 
-            android:maxLength="10"
+            android:maxLength="30"
             android:maxLines="1"
             app:layout_constraintEnd_toEndOf="parent"
 
@@ -75,7 +75,7 @@
             android:inputType="textEmailAddress"
 
 
-            android:maxLength="15"
+            android:maxLength="30"
             android:maxLines="1"
             app:layout_constraintEnd_toEndOf="parent"
 
@@ -110,10 +110,10 @@
             android:id="@+id/edit_text_mobile"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:inputType="textEmailAddress"
+            android:inputType="phone"
 
 
-            android:maxLength="15"
+            android:maxLength="10"
             android:maxLines="1"
             app:layout_constraintEnd_toEndOf="parent"
 
@@ -148,11 +148,11 @@
             android:id="@+id/edit_text_address"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:inputType="textEmailAddress"
+            android:inputType="textPostalAddress"
 
 
-            android:maxLength="15"
-            android:maxLines="1"
+            android:maxLength="50"
+            android:maxLines="2"
             app:layout_constraintEnd_toEndOf="parent"
 
             app:layout_constraintTop_toTopOf="parent" />
@@ -186,10 +186,10 @@
             android:id="@+id/edit_text_password1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:inputType="textEmailAddress"
+            android:inputType="numberPassword"
 
 
-            android:maxLength="15"
+            android:maxLength="6"
             android:maxLines="1"
             app:layout_constraintEnd_toEndOf="parent"
 
@@ -224,10 +224,10 @@
             android:id="@+id/email_address"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:inputType="textEmailAddress"
+            android:inputType="numberPassword"
 
 
-            android:maxLength="15"
+            android:maxLength="6"
             android:maxLines="1"
             app:layout_constraintEnd_toEndOf="parent"
 

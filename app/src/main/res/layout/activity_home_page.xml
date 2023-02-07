@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:fillViewport="true">
+
+   <androidx.constraintlayout.widget.ConstraintLayout
+       android:layout_width="match_parent"
+       android:id="@+id/constraintLayout"
+       android:layout_height="wrap_content">
+
+
+      <ImageView
+          android:id="@+id/imageViewBurger"
+          android:layout_width="200dp"
+          android:layout_height="200dp"
+            android:layout_marginTop="20dp"
+          android:layout_marginStart="10dp"
+          app:layout_constraintStart_toStartOf="parent"
+          app:layout_constraintTop_toBottomOf="@+id/heading"
+          app:srcCompat="@drawable/burger" />
+
+      <TextView
+          android:id="@+id/textViewBurger"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_marginTop="52dp"
+          android:text="@string/cheese_burger"
+          android:textColor="@color/black"
+          android:textSize="25sp"
+          android:textStyle="bold"
+          app:layout_constraintEnd_toEndOf="parent"
+          app:layout_constraintHorizontal_bias="0.45"
+          app:layout_constraintStart_toEndOf="@+id/imageViewBurger"
+          app:layout_constraintTop_toBottomOf="@+id/heading" />
+
+      <TextView
+          android:id="@+id/textViewBurgerKitchen"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="@string/restaurant"
+          android:layout_marginTop="10dp"
+          android:textStyle="normal"
+          android:textSize="20sp"
+          android:textColor="@color/black"
+          app:layout_constraintEnd_toEndOf="parent"
+          app:layout_constraintStart_toEndOf="@+id/imageViewBurger"
+          app:layout_constraintTop_toBottomOf="@+id/textViewBurger" />
+
+      <TextView
+          android:id="@+id/textViewBurgerPrice"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="@string/burgerRate"
+          android:textSize="20sp"
+          android:textColor="@color/black"
+          android:layout_marginTop="10dp"
+          app:layout_constraintEnd_toEndOf="parent"
+          app:layout_constraintStart_toEndOf="@+id/imageViewBurger"
+          app:layout_constraintTop_toBottomOf="@+id/textViewBurgerKitchen" />
+
+      <ImageView
+          android:id="@+id/imageViewPastry"
+          android:layout_width="200dp"
+          android:layout_height="200dp"
+          android:layout_marginTop="10dp"
+          android:layout_marginStart="10dp"
+          app:layout_constraintStart_toStartOf="parent"
+          app:layout_constraintTop_toBottomOf="@+id/imageViewBurger"
+          app:srcCompat="@drawable/dessert" />
+
+      <TextView
+          android:id="@+id/textViewPastry"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_marginTop="132dp"
+
+          android:text="@string/pastry"
+          android:textColor="@color/black"
+          android:textSize="25sp"
+          android:textStyle="bold"
+          app:layout_constraintEnd_toEndOf="parent"
+          app:layout_constraintHorizontal_bias="0.437"
+          app:layout_constraintStart_toEndOf="@+id/imageViewPastry"
+          app:layout_constraintTop_toBottomOf="@+id/textViewBurgerPrice" />
+
+      <TextView
+          android:id="@+id/textViewPastryKitchen"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="@string/restaurant"
+          android:textSize="20sp"
+          android:textColor="@color/black"
+          android:layout_marginTop="10dp"
+          app:layout_constraintEnd_toEndOf="parent"
+          app:layout_constraintHorizontal_bias="0.503"
+          app:layout_constraintStart_toEndOf="@+id/imageViewPastry"
+          app:layout_constraintTop_toBottomOf="@+id/textViewPastry" />
+
+      <TextView
+          android:id="@+id/textViewPastryPrice"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="@string/pastryRate"
+          android:textSize="20sp"
+          android:textColor="@color/black"
+          android:layout_marginTop="10dp"
+          app:layout_constraintEnd_toEndOf="parent"
+          app:layout_constraintStart_toEndOf="@+id/imageViewPastry"
+          app:layout_constraintTop_toBottomOf="@+id/textViewPastryKitchen" />
+
+      <ImageView
+          android:id="@+id/imageViewIcecream"
+          android:layout_width="200dp"
+          android:layout_height="200dp"
+          android:layout_marginTop="10dp"
+          android:layout_marginStart="10dp"
+          app:layout_constraintStart_toStartOf="parent"
+          app:layout_constraintTop_toBottomOf="@+id/imageViewPastry"
+          app:srcCompat="@drawable/icecream" />
+
+      <TextView
+          android:id="@+id/textViewIcecream"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_marginTop="110dp"
+
+          android:text="@string/ice_creams"
+          android:textColor="@color/black"
+          android:textSize="25sp"
+          android:textStyle="bold"
+          app:layout_constraintEnd_toEndOf="parent"
+          app:layout_constraintHorizontal_bias="0.432"
+          app:layout_constraintStart_toEndOf="@+id/imageViewIcecream"
+          app:layout_constraintTop_toBottomOf="@+id/textViewPastryPrice" />
+
+      <TextView
+          android:id="@+id/textViewIcecreamKitchen"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="@string/restaurant"
+          android:textSize="20sp"
+          android:textColor="@color/black"
+          android:layout_marginTop="10dp"
+          app:layout_constraintEnd_toEndOf="parent"
+          app:layout_constraintStart_toEndOf="@+id/imageViewIcecream"
+          app:layout_constraintTop_toBottomOf="@+id/textViewIcecream" />
+
+      <TextView
+          android:id="@+id/textViewIcecreamPrice"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="@string/iceCreamRate"
+          android:textSize="20sp"
+          android:textColor="@color/black"
+          android:layout_marginTop="10dp"
+          app:layout_constraintEnd_toEndOf="parent"
+          app:layout_constraintStart_toEndOf="@+id/imageViewIcecream"
+          app:layout_constraintTop_toBottomOf="@+id/textViewIcecreamKitchen" />
+
+      <ImageView
+          android:id="@+id/imageViewPasta"
+          android:layout_width="200dp"
+          android:layout_height="200dp"
+          android:layout_marginTop="10dp"
+          android:layout_marginStart="10dp"
+          app:layout_constraintStart_toStartOf="parent"
+          app:layout_constraintTop_toBottomOf="@+id/imageViewIcecream"
+          app:srcCompat="@drawable/pasta" />
+
+      <TextView
+          android:id="@+id/textViewPasta"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_marginTop="110dp"
+
+          android:text="@string/cheese_pasta"
+          android:textColor="@color/black"
+          android:textSize="25sp"
+          android:textStyle="bold"
+          app:layout_constraintEnd_toEndOf="parent"
+          app:layout_constraintHorizontal_bias="0.556"
+          app:layout_constraintStart_toEndOf="@+id/imageViewPasta"
+          app:layout_constraintTop_toBottomOf="@+id/textViewIcecreamPrice" />
+
+      <TextView
+          android:id="@+id/textViewPastaKitchen"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="@string/restaurant"
+          android:textSize="20sp"
+          android:textColor="@color/black"
+          android:layout_marginTop="10dp"
+          app:layout_constraintEnd_toEndOf="parent"
+          app:layout_constraintStart_toEndOf="@+id/imageViewPasta"
+          app:layout_constraintTop_toBottomOf="@+id/textViewPasta" />
+
+      <TextView
+          android:id="@+id/textViewPastaPrice"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="@string/pastaRate"
+          android:textSize="20sp"
+          android:textColor="@color/black"
+          android:layout_marginTop="10dp"
+          app:layout_constraintEnd_toEndOf="parent"
+          app:layout_constraintStart_toEndOf="@+id/imageViewPasta"
+          app:layout_constraintTop_toBottomOf="@+id/textViewPastaKitchen" />
+
+      <ImageView
+          android:id="@+id/imageViewCoffee"
+          android:layout_width="200dp"
+          android:layout_height="200dp"
+          android:layout_marginStart="8dp"
+          android:layout_marginTop="12dp"
+          android:src="@drawable/coffee2"
+          android:layout_marginBottom="20dp"
+          app:layout_constraintBottom_toBottomOf="parent"
+
+          app:layout_constraintStart_toStartOf="parent"
+          app:layout_constraintTop_toBottomOf="@id/imageViewPasta">
+
+
+      </ImageView>
+
+      <TextView
+          android:id="@+id/textViewCoffee"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_marginTop="124dp"
+
+          android:text="@string/cappuccino"
+          android:textColor="@color/black"
+          android:textSize="25sp"
+          android:textStyle="bold"
+          app:layout_constraintEnd_toEndOf="parent"
+          app:layout_constraintHorizontal_bias="0.432"
+          app:layout_constraintStart_toEndOf="@+id/imageViewCoffee"
+          app:layout_constraintTop_toBottomOf="@+id/textViewPastaPrice" />
+
+      <TextView
+          android:id="@+id/textViewCoffeeKitchen"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="@string/restaurant"
+          android:textSize="20sp"
+          android:textColor="@color/black"
+          android:layout_marginTop="10dp"
+          app:layout_constraintEnd_toEndOf="parent"
+          app:layout_constraintTop_toBottomOf="@id/textViewCoffee"
+          app:layout_constraintStart_toEndOf="@+id/imageViewCoffee"
+          />
+
+      <TextView
+          android:id="@+id/coffeeprice"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_marginTop="10dp"
+          android:text="@string/coffeprice"
+          android:textColor="@color/black"
+          android:textSize="20sp"
+
+          app:layout_constraintEnd_toEndOf="parent"
+          app:layout_constraintStart_toEndOf="@+id/imageViewCoffee"
+          app:layout_constraintTop_toBottomOf="@id/textViewCoffeeKitchen" />
+
+      <TextView
+          android:id="@+id/motoquote"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="@string/our_speciality"
+          android:layout_marginStart="10dp"
+          android:layout_marginTop="10dp"
+          android:textColor="@color/black"
+          android:textSize="35sp"
+          android:textStyle="bold"
+          app:layout_constraintTop_toTopOf="@id/constraintLayout"
+          app:layout_constraintEnd_toEndOf="parent"
+          app:layout_constraintHorizontal_bias="0.1"
+          app:layout_constraintStart_toStartOf="parent"
+          tools:layout_editor_absoluteY="83dp" />
+
+      <TextView
+          android:id="@+id/heading"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:textColor="@color/black"
+          android:textSize="20sp"
+          android:textStyle="bold"
+          android:layout_margin="10dp"
+          android:text="@string/moto"
+          app:layout_constraintEnd_toEndOf="parent"
+          app:layout_constraintStart_toStartOf="parent"
+          app:layout_constraintTop_toBottomOf="@+id/motoquote" />
+
+
+   </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
+
+
+
