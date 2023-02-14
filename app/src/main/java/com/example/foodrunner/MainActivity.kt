@@ -4,6 +4,7 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.os.Handler
+import androidx.recyclerview.widget.RecyclerView
 
 @Suppress("DEPRECATION")
 class MainActivity : AppCompatActivity() {
@@ -15,6 +16,8 @@ class MainActivity : AppCompatActivity() {
             val startActivity = Intent(this@MainActivity , loginActivity::class.java)
             startActivity(startActivity)
         }, 2000)
+
+
 
 
     }

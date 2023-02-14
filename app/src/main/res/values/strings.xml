@@ -37,4 +37,22 @@
     <string name="cheese_pasta">Cheese Pasta</string>
     <string name="pastaRate">Rate :- $25</string>
     <string name="cappuccino">Cappuccino</string>
+
+    <string name="product1"> Ice Cream </string>
+    <string name="product2"> Cheese Burger </string>
+    <string name="product3"> Pastry </string>
+    <string name="product4"> Cheese Pasta </string>
+    <string name="product5"> Cappuccino </string>
+
+    <string name="resturant1"> Street Kitchen</string>
+    <string name="resturant2"> Sky High</string>
+    <string name="resturant3"> Indian Coffee House</string>
+    <string name="resturant4"> Baskin Robin</string>
+    <string name="resturant5"> Jhonnys Kitchen</string>
+
+    <string name="price1"> $10</string>
+    <string name="price2"> $20</string>
+    <string name="price3"> $5</string>
+    <string name="price4"> $15</string>
+    <string name="price5"> $25</string>
 </resources>

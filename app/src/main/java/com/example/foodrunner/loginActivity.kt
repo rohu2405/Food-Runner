@@ -64,10 +64,7 @@ class loginActivity : AppCompatActivity() {
         startActivity(intent)
     }
 
-    override fun onPause() {
-        super.onPause()
-        finish()
-    }
+
 
 
 
