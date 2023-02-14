@@ -8,6 +8,8 @@ import androidx.recyclerview.widget.RecyclerView
 import androidx.recyclerview.widget.RecyclerView.LayoutManager
 
 class HomePageActivity : AppCompatActivity() {
+
+    lateinit var layoutManager: RecyclerView.LayoutManager
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_home_page)
@@ -18,6 +20,13 @@ class HomePageActivity : AppCompatActivity() {
 
         recyclerView.adapter = ItemAdapter(this , myDataSet)
         recyclerView.setHasFixedSize(true)
+        layoutManager = LinearLayoutManager(this)
+
+        recyclerView.addItemDecoration(
+            DividerItemDecoration(
+                recyclerView.context , (layoutManager as LinearLayoutManager).orientation
+            )
+        )
 
 
     }
